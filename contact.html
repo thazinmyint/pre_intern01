@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" type="text/css" href="bootstrapproject/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+        <style>
+            
+            .container{
+                width: 100%;
+                height: 100%;
+            }
+            .header{
+                background-color: #0F6737;
+                color: white;
+                width: 100%;
+                height: 65px;
+                left: 0px;
+                top: 0px;
+                position: absolute;
+
+            }
+            .image{
+                
+                position: absolute;
+                width: 20%;
+                height: 40px; 
+                left: 170px;
+                top: 15px;
+                bottom: 20px;
+                
+
+            }
+            
+                .navbar{
+                    width: 60%;
+                    position: absolute;
+                    top: 0px;
+                    left: 40%;
+                    right: 0px;                   
+                  }
+                
+                .navbar ul li{
+                    float: left;
+                    list-style: none;
+                    
+                    padding: 20px;
+                    padding-top: 10px;
+                } 
+                .mainbody1{
+                    width: 100%;
+                    
+                }
+                .service{
+                    position: absolute;
+                    text-align: center;
+                    width: 100%;
+                    top: 70px;
+                    font-family: Roboto;
+                    align-items: baseline;     
+                    left: 50px; 
+                    font-size: 20px; 
+                    text-decoration:underline;          
+                    
+                }
+                .office{
+                    width: 35%;
+                    left: 180px;
+                    position: absolute;
+                    top: 120px;
+                }
+                .profile{
+                    width: 65%;
+                    left: 55%;                    
+                    position: absolute;
+                    top: 150px;
+                }
+                
+                .mainbody2{
+                    width: 100%;
+                    left: 180px;
+                    
+                    position: absolute; 
+                    top: 100%;
+                     float: left; 
+                    /* background-color:gainsboro; */
+                                   
+                }
+                .quick{
+                    /* position: absolute; */
+                    width: 20%;
+                    float: left;                                       
+                    }
+                .quick ul li{
+                    list-style: none;                  
+
+                }
+                .contact{
+                    /* position: absolute;  */
+                    width: 20%; 
+                    float: left;
+                }
+                .facebook{
+                     width: 20%;
+                     float: left;
+                     padding-left: 120px;
+                 }
+                .footer{
+                    position: absolute;
+                    width: 100%;
+                    color: white;
+                    text-align: center;
+                    top:160%;
+                    /* bottom: 0px; */
+                    background-color: #0F6737;
+                    right: 0;
+                
+                }
+                h4{
+                    text-decoration:underline;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                                  
+                    <img src="logo.png" class="image">
+                    <!-- <h1>STERLING</h1>
+                    <h5>INDUSTRIAL TECHNOLOGIES CO, LTD.</h5> -->
+               
+                <div class="navbar">
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Projects</li>
+                        <li>Activities</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="mainbody1">
+                <h3 class="service">Contact Us </h3>
+                <div class="office">
+                    <h4>OFFICE</h4>
+                    <ul>
+                        <li><p>Room – 1008, 10<sup>th</sup> Floor, Building - B, 50<sup>th</sup> Street Condominium, 50<sup>th</sup> Street,
+                             Botahtaung Township, Yangon, Myanmar. </p></li>
+                        <li><p>+(95) 9 4512 999 88, +(95) 9 535 1714 </p></li>
+                        <li><p>info@sterling-myanmar.com </p></li>
+                        
+                    </ul>
+                </div>
+                <div class="profile">
+                    <!-- <form>
+                        <label for="fname">Name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+                        <label for="phone">Phone:</label><br>
+                        <input type="text" id="phone" name="phone"><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message"></textarea><br>
+            
+                        <br><br>
+                        <button style="background-color: darkgreen; display:inline-block;">Send</button>
+                        
+                        
+                    </form> -->
+                    <label for="name">Name:</label><br>
+                    <input type="text"  class="form-control form-input-text form-xs" style="width: 50%;" placeholder="Name" required="required" name="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text"  class="form-control form-input-text form-xs" style="width: 50%;" placeholder="Email" required="required" name="email"><br>
+                    <label for="phone">Phone:</label><br>
+                    <input type="text"  class="form-control form-input-text form-xs" style="width: 50%;" placeholder="Phone" required="required" name="phone"><br>
+                    <label for="message">Message:</label><br>
+                    <textarea class="form-control form-input-text message-area form-xs" style="width: 50%;" placeholder="Message" required="required" name="message"></textarea>
+                    <button class="btn" style="background-color: darkgreen; display: block; border: 0px;">Send</button>
+
+                </div>
+
+            </div>
+            <div class="mainbody2">
+                <div class="quick">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                    </ul>
+
+                 </div>
+               <div class="contact">
+                    <h4>CONTACT US</h4>
+                    <ul>
+                        <li><p>Room – 1008, 10<sup>th</sup> Floor, Building - B, 50<sup>th</sup> Street Condominium, 50<sup>th</sup> Street,
+                             Botahtaung Township, Yangon, Myanmar. </p></li>
+                        <li><p>+(95) 9 4512 999 88, +(95) 9 535 1714 </p></li>
+                        <li><p>info@sterling-myanmar.com </p></li>
+                        
+                    </ul>
+                    
+
+                </div>
+                <div class="facebook">
+                    <h4>FACEBOOK</h4>
+                    <img src="s6.png">
+
+                </div>
+
+            </div>
+            <div class="footer">
+                <p>Copyright STERLING MYANMAR. All Right Reserved. | Designed By Host Myanmar</p>
+
+            </div>
+
+        </div>
+    </body>
+</html>
